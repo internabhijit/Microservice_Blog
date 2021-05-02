@@ -6,3 +6,4 @@ spec:
   containers:
     - name: posts
       image: abhijitdeshmukh10/posts:0.0.1
+      imagePullPolicy: Never
